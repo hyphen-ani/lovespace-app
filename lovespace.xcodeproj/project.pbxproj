@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F01853632C2F229D003C843D /* PlayfairDisplay-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F01853622C2F229D003C843D /* PlayfairDisplay-VariableFont_wght.ttf */; };
+		F01853682C2F2A2F003C843D /* AccountCreationOrLogInViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01853672C2F2A2F003C843D /* AccountCreationOrLogInViewView.swift */; };
 		F096D18C2C2F16F500C5D9E0 /* lovespaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096D18B2C2F16F500C5D9E0 /* lovespaceApp.swift */; };
 		F096D18E2C2F16F500C5D9E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096D18D2C2F16F500C5D9E0 /* ContentView.swift */; };
 		F096D1902C2F16F600C5D9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F096D18F2C2F16F600C5D9E0 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 		F096D19D2C2F16F600C5D9E0 /* lovespaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096D19C2C2F16F600C5D9E0 /* lovespaceTests.swift */; };
 		F096D1A72C2F16F600C5D9E0 /* lovespaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096D1A62C2F16F600C5D9E0 /* lovespaceUITests.swift */; };
 		F096D1A92C2F16F600C5D9E0 /* lovespaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096D1A82C2F16F600C5D9E0 /* lovespaceUITestsLaunchTests.swift */; };
+		F096D1B62C2F176600C5D9E0 /* EntryScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096D1B52C2F176600C5D9E0 /* EntryScreenView.swift */; };
+		F096D1B92C2F1E1B00C5D9E0 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096D1B82C2F1E1B00C5D9E0 /* FontExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F01853622C2F229D003C843D /* PlayfairDisplay-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		F01853642C2F22C4003C843D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F01853672C2F2A2F003C843D /* AccountCreationOrLogInViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreationOrLogInViewView.swift; sourceTree = "<group>"; };
 		F096D1882C2F16F500C5D9E0 /* lovespace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lovespace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F096D18B2C2F16F500C5D9E0 /* lovespaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lovespaceApp.swift; sourceTree = "<group>"; };
 		F096D18D2C2F16F500C5D9E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,8 @@
 		F096D1A22C2F16F600C5D9E0 /* lovespaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lovespaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F096D1A62C2F16F600C5D9E0 /* lovespaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lovespaceUITests.swift; sourceTree = "<group>"; };
 		F096D1A82C2F16F600C5D9E0 /* lovespaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lovespaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F096D1B52C2F176600C5D9E0 /* EntryScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryScreenView.swift; sourceTree = "<group>"; };
+		F096D1B82C2F1E1B00C5D9E0 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,8 @@
 		F096D17F2C2F16F500C5D9E0 = {
 			isa = PBXGroup;
 			children = (
+				F096D1B82C2F1E1B00C5D9E0 /* FontExtension.swift */,
+				F096D1B72C2F176F00C5D9E0 /* ScreenView */,
 				F096D18A2C2F16F500C5D9E0 /* lovespace */,
 				F096D19B2C2F16F600C5D9E0 /* lovespaceTests */,
 				F096D1A52C2F16F600C5D9E0 /* lovespaceUITests */,
@@ -94,6 +105,8 @@
 		F096D18A2C2F16F500C5D9E0 /* lovespace */ = {
 			isa = PBXGroup;
 			children = (
+				F01853642C2F22C4003C843D /* Info.plist */,
+				F01853622C2F229D003C843D /* PlayfairDisplay-VariableFont_wght.ttf */,
 				F096D18B2C2F16F500C5D9E0 /* lovespaceApp.swift */,
 				F096D18D2C2F16F500C5D9E0 /* ContentView.swift */,
 				F096D18F2C2F16F600C5D9E0 /* Assets.xcassets */,
@@ -125,6 +138,15 @@
 				F096D1A82C2F16F600C5D9E0 /* lovespaceUITestsLaunchTests.swift */,
 			);
 			path = lovespaceUITests;
+			sourceTree = "<group>";
+		};
+		F096D1B72C2F176F00C5D9E0 /* ScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				F096D1B52C2F176600C5D9E0 /* EntryScreenView.swift */,
+				F01853672C2F2A2F003C843D /* AccountCreationOrLogInViewView.swift */,
+			);
+			path = ScreenView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F096D1932C2F16F600C5D9E0 /* Preview Assets.xcassets in Resources */,
+				F01853632C2F229D003C843D /* PlayfairDisplay-VariableFont_wght.ttf in Resources */,
 				F096D1902C2F16F600C5D9E0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F096D1B62C2F176600C5D9E0 /* EntryScreenView.swift in Sources */,
+				F01853682C2F2A2F003C843D /* AccountCreationOrLogInViewView.swift in Sources */,
 				F096D18E2C2F16F500C5D9E0 /* ContentView.swift in Sources */,
+				F096D1B92C2F1E1B00C5D9E0 /* FontExtension.swift in Sources */,
 				F096D18C2C2F16F500C5D9E0 /* lovespaceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +450,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"lovespace/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lovespace/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +479,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"lovespace/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lovespace/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
